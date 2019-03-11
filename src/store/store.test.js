@@ -6,21 +6,9 @@ const EXPECTED = {
 }
 
 const toDoArrayMock = [
-  {
-    id: 2,
-    label: 'test1',
-    complete: false,
-  },
-  {
-    id: 3,
-    label: 'test2',
-    complete: true,
-  },
-  {
-    id: 0,
-    label: 'test3',
-    complete: true,
-  },
+  { id: 2 },
+  { id: 3 },
+  { id: 0 },
 ];
 
 const changeEventMock = { target: { value: EXPECTED.INPUT_VALUE } };
